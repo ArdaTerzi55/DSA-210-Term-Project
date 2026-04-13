@@ -7,7 +7,7 @@ consumption rates also exhibit higher traffic accident rates per 100 000
 population. The analysis combines three official datasets and applies six
 statistical hypothesis tests.
 
-**Author:** (Your Name)  
+**Author:** Mustafa Arda Terzi  
 **Course:** DSA210 — Introduction to Data Science  
 **Date:** April 2026
 
