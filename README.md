@@ -65,7 +65,7 @@ files are required.
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/DSA210-Project.git
+git clone https://github.com/ArdaTerzi55/DSA210-Term-Project.git
 cd DSA210-Project
 ```
 
