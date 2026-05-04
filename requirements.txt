@@ -16,3 +16,5 @@ scipy==1.13.1
 jupyter==1.0.0
 notebook==7.2.0
 nbformat==5.10.4
+
+scikit-learn==1.5.0
