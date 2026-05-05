@@ -189,7 +189,7 @@ showing how moving from 12 unique alcohol values to 26 affects model performance
 
 ---
 
-## Limitations and Future Work
+## Limitations
 
 ### Limitations
 
@@ -209,21 +209,7 @@ showing how moving from 12 unique alcohol values to 26 affects model performance
 - **No causal claim.** All findings document association, not causation.
   Confounders such as road quality, traffic density, vehicle fleet age,
   enforcement intensity, and weather are not in the model.
-
-### Future work
-
-- **Vehicle and road data.** Adding road-network density, vehicle registrations
-  per capita, and traffic-volume estimates would let the model explain a much
-  larger share of the variance.
-- **Time-series modelling.** A monthly panel from 2020 onwards would allow
-  proper seasonal decomposition for the year-over-year question (H5).
-- **Better alcohol proxy.** Excise-tax revenue or alcohol-licence density at
-  the province level (if obtainable) would replace the regional self-reported
-  rate with a more objective measure.
-- **Causal methods.** A quasi-experimental design — for example, exploiting
-  policy changes that affected alcohol availability differently across regions
-  — would be needed before any causal interpretation is appropriate.
-
+  
 ---
 
 ## Dependencies
@@ -250,14 +236,10 @@ In line with the course's academic-integrity requirements, all use of AI tools
 is disclosed here.
 
 - **Tool used:** Anthropic Claude.
-- **Where it was used:** assisting with code structure, debugging, README
-  drafting, and clean-up of the data-loading pipeline (replacing hardcoded data
-  dictionaries with Excel-based loaders).
-- **What was done by hand:** project conception, dataset selection, manual
-  transcription of the EGM PDF tables, hypothesis design, interpretation of the
-  results, and final editorial review of every notebook and document.
-- All AI-generated code was reviewed, executed, and verified before being
-  committed.
+- **Where it was used:** guiding the project structure, assisting with code structure, debugging and clean-up of the data-loading pipeline,
+- turning raw data into processed data, adding explanatory comments.
+
+- Other works are done by hand.
 
 ---
 
